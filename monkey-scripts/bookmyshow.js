@@ -12,9 +12,9 @@
 //interval = number of min b/w each check (in sec, default = 5min),
 //theatres = names of the theatre (should be exact and the numbers can be anything.)
 //date and interval are required fields, theatres is optional and can be left empty so that sound will be played even if one theatre is present for that movie.
-var date = "19", interval = 5*60;
+var date = "28", interval = 60;
 var theatres = {};
-theatres['1, Newfangled Miniplex: Mondeal Retail Park'] = 1;
+theatres['INOX: South City, Kolkata'] = 1;
 var audioLink = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
 // window.onload = readDocument;
 
